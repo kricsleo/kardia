@@ -1,33 +1,33 @@
-
 /**
  * https://code.visualstudio.com/api/extension-guides/file-icon-theme#file-association
  */
-interface BaseIconTheme {
-  file?: string
-  fileExtensions?: Record<string, string>
-  fileNames?: Record<string, string>
-
-  folder?: string
-  folderExpanded?: string
-  folderNames?: Record<string, string>
-  folderNamesExpanded?: Record<string, string>
-
-  rootFolder?: string
-  rootFolderExpanded?: string
-  rootFolderNames?: Record<string, string>
-  rootFolderNamesExpanded?: Record<string, string>
-
-  languageIds?: Record<string, string>
-  hidesExplorerArrows?: boolean
-}
-
-export interface IconTheme extends BaseIconTheme {
+export interface IconTheme<T> extends BaseIconTheme<T> {
   iconDefinitions?: Record<string, IconDefinition>
   fonts?: Array<FontDefinition>
 
-  light?: BaseIconTheme,
-  highContrast?: BaseIconTheme
+  light?: BaseIconTheme<T>,
+  highContrast?: BaseIconTheme<T>
 }
+
+interface BaseIconTheme<T> {
+  file?: T
+  fileExtensions?: Record<string, T>
+  fileNames?: Record<string, T>
+
+  folder?: T
+  folderExpanded?: T
+  folderNames?: Record<string, T>
+  folderNamesExpanded?: Record<string, T>
+
+  rootFolder?: T
+  rootFolderExpanded?: T
+  rootFolderNames?: Record<string, T>
+  rootFolderNamesExpanded?: Record<string, T>
+
+  languageIds?: Record<string, T>
+  hidesExplorerArrows?: boolean
+}
+
 
 /**
  * https://code.visualstudio.com/api/extension-guides/file-icon-theme#icon-definitions
