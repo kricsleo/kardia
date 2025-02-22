@@ -1,4 +1,4 @@
-import { IconDefinition, IconTheme } from "./types";
+import type { IconDefinition, IconTheme } from "./types";
 
 const iconDefinitions = {
   file: {
@@ -174,24 +174,28 @@ function buildIconTheme() {
     file: 'file',
     folder: 'folder',
     folderExpanded: 'folderExpanded',
+    
+    fileExtensions: {} as any,
+    fileNames: {} as any,
 
-    fileExtensions: {},
-    fileNames: {},
-
-    iconDefinitions: {},
+    iconDefinitions: {} as any,
   
     hidesExplorerArrows: true,
   } satisfies IconTheme<Definitions>
 
-  for (const [type, definition] of Object.entries(iconDefinitions)) {
-    iconDefinitions[type] = { iconPath: definition.iconPath }
+  for (const [definition, config] of Object.entries(iconDefinitions)) {
+    iconTheme.iconDefinitions[definition] = { iconPath: config.iconPath }
 
-    if('extensions' in definition) {
-      iconTheme.fileExtensions[type] = type
+    if('extensions' in config) {
+      for(const extension of config.extensions) {
+        iconTheme.fileExtensions[extension] = definition
+      }
     }
 
-    if('names' in definition) {
-      iconTheme.fileNames[type] = type
+    if('names' in config) {
+      for(const name of config.names) {
+        iconTheme.fileNames[name] = definition
+      }
     }
   }
 
