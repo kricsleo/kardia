@@ -167,11 +167,33 @@ const iconDefinitions = {
 
 type Definitions = keyof typeof iconDefinitions
 
-export const iconTheme = {
-  file: 'file',
-  folder: 'folder',
-  folderExpanded: 'folderExpanded',
+export const iconTheme = buildIconTheme()
 
-  hidesExplorerArrows: true,
-  iconDefinitions,
-} satisfies IconTheme<Definitions>
+function buildIconTheme() {
+  const iconTheme = {
+    file: 'file',
+    folder: 'folder',
+    folderExpanded: 'folderExpanded',
+
+    fileExtensions: {},
+    fileNames: {},
+
+    iconDefinitions: {},
+  
+    hidesExplorerArrows: true,
+  } satisfies IconTheme<Definitions>
+
+  for (const [type, definition] of Object.entries(iconDefinitions)) {
+    iconDefinitions[type] = { iconPath: definition.iconPath }
+
+    if('extensions' in definition) {
+      iconTheme.fileExtensions[type] = type
+    }
+
+    if('names' in definition) {
+      iconTheme.fileNames[type] = type
+    }
+  }
+
+  return iconTheme
+}
