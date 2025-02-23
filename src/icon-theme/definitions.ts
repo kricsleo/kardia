@@ -10,7 +10,10 @@ const iconDefinitions = {
   folderExpanded: {
     iconPath: './icons/folder-expanded.svg'
   },
-
+  config: {
+    names: ['tsconfig.json'],
+    "iconPath": "./icons/1.config.svg" 
+  },
   audio: {
     extensions: ['mp3', 'wav', 'ogg'],
     iconPath: './icons/audio.svg'
@@ -49,6 +52,10 @@ const iconDefinitions = {
     extensions: ['ts', 'mts', 'cts'],
     iconPath: './icons/typescript.svg'
   },
+  'typescript-definition': {
+    extensions: ['d.ts', 'd.mts', 'd.cts'],
+    iconPath: './icons/typescript.svg'
+  },
   'typescript-test': {
     extensions: ['test.ts', 'test.mts', 'test.cts', 'spec.ts', 'spec.mts', 'spec.cts'],
     iconPath: './icons/typescript-test.svg'
@@ -62,17 +69,9 @@ const iconDefinitions = {
     extensions: ['jsx'],
     iconPath: './icons/jsx.svg'
   },
-  'jsx-test': {
-    extensions: ['test.jsx', 'spec.jsx'],
-    iconPath: './icons/jsx-test.svg'
-  },
   'jsx-typescript': {
     extensions: ['tsx'],
     iconPath: './icons/jsx-typescript.svg'
-  },
-  'jsx-typescript-test': {
-    extensions: ['test.tsx', 'spec.tsx'],
-    iconPath: './icons/jsx-typescript-test.svg'
   },
 
   vue: {
