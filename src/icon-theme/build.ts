@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import { iconTheme } from './definitions';
 
-const themeJson = './kardia-icon-theme.json'
+const themeJson = './kardia-icons-theme.json'
 
 main()
 
