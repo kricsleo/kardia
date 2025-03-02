@@ -129,16 +129,16 @@
   },
   "iconDefinitions": {
     "file": {
-      "iconPath": "./icons/new/1.file.svg"
+      "iconPath": "./icons/new/file.svg"
     },
     "folder": {
-      "iconPath": "./icons/new/10.folder.svg"
+      "iconPath": "./icons/new/folder.svg"
     },
     "folderExpanded": {
-      "iconPath": "./icons/new/2.folder-expanded.svg"
+      "iconPath": "./icons/new/folder-expanded.svg"
     },
     "config": {
-      "iconPath": "./icons/1.config.svg"
+      "iconPath": "./icons/config.svg"
     },
     "audio": {
       "iconPath": "./icons/audio.svg"
@@ -156,7 +156,7 @@
       "iconPath": "./icons/font.svg"
     },
     "javascript": {
-      "iconPath": "./icons/new/5.javascript.svg"
+      "iconPath": "./icons/new/javascript.svg"
     },
     "javascript-test": {
       "iconPath": "./icons/javascript-test.svg"
@@ -165,7 +165,7 @@
       "iconPath": "./icons/javascript-config.svg"
     },
     "typescript": {
-      "iconPath": "./icons/new/4.typescript.svg"
+      "iconPath": "./icons/new/typescript.svg"
     },
     "typescript-definition": {
       "iconPath": "./icons/typescript.svg"

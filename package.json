@@ -37,7 +37,8 @@
 	},
 	"scripts": {
 		"build:icon-theme": "bun run src/icon-theme/build.ts",
-		"pack": "vsce package"
+		"pack": "vsce package",
+		"preview": "bun run build:icon-theme && bun run pack && code --uninstall-extension kricsleo.kardia && code --install-extension kardia-0.0.0.vsix"
 	},
 	"dependencies": {
 		"@types/node": "^22.13.5"
