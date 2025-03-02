@@ -2,13 +2,13 @@ import type { IconDefinition, IconTheme } from "./types";
 
 const iconDefinitions = {
   file: {
-    iconPath: './icons/file.svg'
+    iconPath: './icons/new/1.file.svg'
   },
   folder: {
-    iconPath: './icons/folder.svg'
+    iconPath: './icons/new/10.folder.svg'
   },
   folderExpanded: {
-    iconPath: './icons/folder-expanded.svg'
+    iconPath: './icons/new/2.folder-expanded.svg'
   },
   config: {
     names: ['tsconfig.json'],
@@ -37,7 +37,7 @@ const iconDefinitions = {
 
   javascript: {
     extensions: ['js', 'mjs', 'cjs'],
-    iconPath: './icons/javascript.svg'
+    iconPath: './icons/new/5.javascript.svg'
   },
   'javascript-test': {
     extensions: ['test.js', 'test.mjs', 'test.cjs', 'spec.js', 'spec.mjs', 'spec.cjs'],
@@ -50,7 +50,7 @@ const iconDefinitions = {
 
   typescript: {
     extensions: ['ts', 'mts', 'cts'],
-    iconPath: './icons/typescript.svg'
+    iconPath: './icons/new/4.typescript.svg'
   },
   'typescript-definition': {
     extensions: ['d.ts', 'd.mts', 'd.cts'],

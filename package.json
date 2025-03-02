@@ -20,6 +20,12 @@
 	"categories": [
 		"Themes"
 	],
+	"files": [
+		"assets",
+		"icons",
+		"kardia-icons-theme.json",
+		"LICENSE"
+	],
 	"contributes": {
 		"iconThemes": [
 			{
@@ -30,7 +36,8 @@
 		]
 	},
 	"scripts": {
-		"build:icon-theme": "bun run src/icon-theme/build.ts"
+		"build:icon-theme": "bun run src/icon-theme/build.ts",
+		"pack": "vsce package"
 	},
 	"dependencies": {
 		"@types/node": "^22.13.5"
