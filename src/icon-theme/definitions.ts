@@ -1,18 +1,18 @@
-import type { IconDefinition, IconTheme } from "./types";
+import type { IconDefinition } from "./types";
 
-const iconDefinitions = {
+export const iconDefinitions = {
   file: {
-    iconPath: './icons/new/1.file.svg'
+    iconPath: './icons/new/file.svg'
   },
   folder: {
-    iconPath: './icons/new/10.folder.svg'
+    iconPath: './icons/new/folder.svg'
   },
   folderExpanded: {
-    iconPath: './icons/new/2.folder-expanded.svg'
+    iconPath: './icons/new/folder-expanded.svg'
   },
   config: {
     names: ['tsconfig.json'],
-    "iconPath": "./icons/1.config.svg" 
+    "iconPath": "./icons/config.svg" 
   },
   audio: {
     extensions: ['mp3', 'wav', 'ogg'],
@@ -37,7 +37,7 @@ const iconDefinitions = {
 
   javascript: {
     extensions: ['js', 'mjs', 'cjs'],
-    iconPath: './icons/new/5.javascript.svg'
+    iconPath: './icons/new/javascript.svg'
   },
   'javascript-test': {
     extensions: ['test.js', 'test.mjs', 'test.cjs', 'spec.js', 'spec.mjs', 'spec.cjs'],
@@ -50,7 +50,7 @@ const iconDefinitions = {
 
   typescript: {
     extensions: ['ts', 'mts', 'cts'],
-    iconPath: './icons/new/4.typescript.svg'
+    iconPath: './icons/new/typescript.svg'
   },
   'typescript-definition': {
     extensions: ['d.ts', 'd.mts', 'd.cts'],
@@ -164,39 +164,4 @@ const iconDefinitions = {
   names?: string[]
 }>
 
-type Definitions = keyof typeof iconDefinitions
-
-export const iconTheme = buildIconTheme()
-
-function buildIconTheme() {
-  const iconTheme = {
-    file: 'file',
-    folder: 'folder',
-    folderExpanded: 'folderExpanded',
-    
-    fileExtensions: {} as any,
-    fileNames: {} as any,
-
-    iconDefinitions: {} as any,
-  
-    hidesExplorerArrows: true,
-  } satisfies IconTheme<Definitions>
-
-  for (const [definition, config] of Object.entries(iconDefinitions)) {
-    iconTheme.iconDefinitions[definition] = { iconPath: config.iconPath }
-
-    if('extensions' in config) {
-      for(const extension of config.extensions) {
-        iconTheme.fileExtensions[extension] = definition
-      }
-    }
-
-    if('names' in config) {
-      for(const name of config.names) {
-        iconTheme.fileNames[name] = definition
-      }
-    }
-  }
-
-  return iconTheme
-}
+export type Definitions = keyof typeof iconDefinitions
