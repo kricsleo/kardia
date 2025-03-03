@@ -2,13 +2,13 @@ import type { IconDefinition } from "./types";
 
 export const iconDefinitions = {
   file: {
-    iconPath: './icons/new/file.svg'
+    iconPath: './icons/file.svg'
   },
   folder: {
-    iconPath: './icons/new/folder.svg'
+    iconPath: './icons/folder.svg'
   },
   folderExpanded: {
-    iconPath: './icons/new/folder-expanded.svg'
+    iconPath: './icons/folder-expanded.svg'
   },
   config: {
     names: ['tsconfig.json'],
@@ -37,7 +37,7 @@ export const iconDefinitions = {
 
   javascript: {
     extensions: ['js', 'mjs', 'cjs'],
-    iconPath: './icons/new/javascript.svg'
+    iconPath: './icons/javascript.svg'
   },
   'javascript-test': {
     extensions: ['test.js', 'test.mjs', 'test.cjs', 'spec.js', 'spec.mjs', 'spec.cjs'],
@@ -50,7 +50,7 @@ export const iconDefinitions = {
 
   typescript: {
     extensions: ['ts', 'mts', 'cts'],
-    iconPath: './icons/new/typescript.svg'
+    iconPath: './icons/typescript.svg'
   },
   'typescript-definition': {
     extensions: ['d.ts', 'd.mts', 'd.cts'],
@@ -71,7 +71,7 @@ export const iconDefinitions = {
   },
   'jsx-typescript': {
     extensions: ['tsx'],
-    iconPath: './icons/jsx-typescript.svg'
+    iconPath: './icons/tsx.svg'
   },
 
   vue: {

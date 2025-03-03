@@ -129,13 +129,13 @@
   },
   "iconDefinitions": {
     "file": {
-      "iconPath": "./icons/new/file.svg"
+      "iconPath": "./icons/file.svg"
     },
     "folder": {
-      "iconPath": "./icons/new/folder.svg"
+      "iconPath": "./icons/folder.svg"
     },
     "folderExpanded": {
-      "iconPath": "./icons/new/folder-expanded.svg"
+      "iconPath": "./icons/folder-expanded.svg"
     },
     "config": {
       "iconPath": "./icons/config.svg"
@@ -156,7 +156,7 @@
       "iconPath": "./icons/font.svg"
     },
     "javascript": {
-      "iconPath": "./icons/new/javascript.svg"
+      "iconPath": "./icons/javascript.svg"
     },
     "javascript-test": {
       "iconPath": "./icons/javascript-test.svg"
@@ -165,7 +165,7 @@
       "iconPath": "./icons/javascript-config.svg"
     },
     "typescript": {
-      "iconPath": "./icons/new/typescript.svg"
+      "iconPath": "./icons/typescript.svg"
     },
     "typescript-definition": {
       "iconPath": "./icons/typescript.svg"
@@ -180,7 +180,7 @@
       "iconPath": "./icons/jsx.svg"
     },
     "jsx-typescript": {
-      "iconPath": "./icons/jsx-typescript.svg"
+      "iconPath": "./icons/tsx.svg"
     },
     "vue": {
       "iconPath": "./icons/vue.svg"
