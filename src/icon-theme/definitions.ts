@@ -83,8 +83,12 @@ export const iconDefinitions = {
     iconPath: './icons/html.svg'
   },
   css: {
-    extensions: ['css', 'less', 'scss'],
+    extensions: ['css'],
     iconPath: './icons/css.svg'
+  },
+  scss: {
+    extensions: ['less', 'scss'],
+    iconPath: './icons/scss.svg'
   },
   json: {
     extensions: ['json', 'jsonc'],
