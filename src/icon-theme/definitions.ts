@@ -52,9 +52,9 @@ export const iconDefinitions = {
     extensions: ['ts', 'mts', 'cts'],
     iconPath: './icons/typescript.svg'
   },
-  'typescript-definition': {
+  'typescript-declaration': {
     extensions: ['d.ts', 'd.mts', 'd.cts'],
-    iconPath: './icons/typescript.svg'
+    iconPath: './icons/typescript-declaration.svg'
   },
   'typescript-test': {
     extensions: ['test.ts', 'test.mts', 'test.cts', 'spec.ts', 'spec.mts', 'spec.cts'],
@@ -94,11 +94,16 @@ export const iconDefinitions = {
     extensions: ['json', 'jsonc'],
     iconPath: './icons/json.svg'
   },
+  'json-config': {
+    extensions: ['config.json', 'config.jsonc'],
+    iconPath: './icons/json-config.svg'
+  },
   markdown: {
     extensions: ['md', 'mdx', 'markdown'],
     iconPath: './icons/markdown.svg'
   },
   txt: {
+    names: ['LICENSE'],
     extensions: ['txt', 'rtf', 'pdf', 'doc', 'docx'],
     iconPath: './icons/txt.svg'
   },
