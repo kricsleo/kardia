@@ -120,14 +120,6 @@ export const iconDefinitions = {
     extensions: ['rs'],
     iconPath: './icons/rust.svg'
   },
-  php: {
-    extensions: ['php'],
-    iconPath: './icons/php.svg'
-  },
-  python: {
-    extensions: ['py'],
-    iconPath: './icons/python.svg'
-  },
   zig: {
     extensions: ['zig'],
     iconPath: './icons/zig.svg'
