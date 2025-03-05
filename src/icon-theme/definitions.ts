@@ -95,6 +95,7 @@ export const iconDefinitions = {
     iconPath: './icons/json.svg'
   },
   'json-config': {
+    names: ['tsconfig.json'],
     extensions: ['config.json', 'config.jsonc'],
     iconPath: './icons/json-config.svg'
   },
