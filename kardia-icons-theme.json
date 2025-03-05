@@ -35,40 +35,10 @@
     "woff2": "font",
     "eot": "font",
     "font": "font",
-    "js": "javascript",
-    "mjs": "javascript",
-    "cjs": "javascript",
-    "test.js": "javascript-test",
-    "test.mjs": "javascript-test",
-    "test.cjs": "javascript-test",
-    "spec.js": "javascript-test",
-    "spec.mjs": "javascript-test",
-    "spec.cjs": "javascript-test",
-    "config.js": "javascript-config",
-    "config.mjs": "javascript-config",
-    "config.cjs": "javascript-config",
-    "ts": "typescript",
-    "mts": "typescript",
-    "cts": "typescript",
-    "d.ts": "typescript-definition",
-    "d.mts": "typescript-definition",
-    "d.cts": "typescript-definition",
-    "test.ts": "typescript-test",
-    "test.mts": "typescript-test",
-    "test.cts": "typescript-test",
-    "spec.ts": "typescript-test",
-    "spec.mts": "typescript-test",
-    "spec.cts": "typescript-test",
-    "config.ts": "typescript-config",
-    "config.mts": "typescript-config",
-    "config.cts": "typescript-config",
-    "jsx": "jsx",
-    "tsx": "jsx-typescript",
-    "vue": "vue",
     "html": "html",
     "css": "css",
-    "less": "css",
-    "scss": "css",
+    "less": "scss",
+    "scss": "scss",
     "json": "json",
     "jsonc": "json",
     "md": "markdown",
@@ -82,18 +52,6 @@
     "toml": "toml",
     "yaml": "yaml",
     "yml": "yaml",
-    "rs": "rust",
-    "php": "php",
-    "py": "python",
-    "zig": "zig",
-    "sh": "shell",
-    "bash": "shell",
-    "zsh": "shell",
-    "fish": "shell",
-    "bashrc": "shell",
-    "bash_profile": "shell",
-    "bash_aliases": "shell",
-    "vite.*": "vite",
     "bin": "binary",
     "dat": "binary",
     "exe": "binary",
@@ -110,18 +68,61 @@
     "gitmodules": "git",
     "gitkeep": "git",
     "gitconfig": "git",
-    "gitignore_global": "git"
+    "gitignore_global": "git",
+    "js": "javascript",
+    "mjs": "javascript",
+    "cjs": "javascript",
+    "test.js": "javascript-test",
+    "test.mjs": "javascript-test",
+    "test.cjs": "javascript-test",
+    "spec.js": "javascript-test",
+    "spec.mjs": "javascript-test",
+    "spec.cjs": "javascript-test",
+    "jsx": "jsx",
+    "ts": "typescript",
+    "mts": "typescript",
+    "cts": "typescript",
+    "test.ts": "typescript-test",
+    "test.mts": "typescript-test",
+    "test.cts": "typescript-test",
+    "spec.ts": "typescript-test",
+    "spec.mts": "typescript-test",
+    "spec.cts": "typescript-test",
+    "d.ts": "typescript-declaration",
+    "d.mts": "typescript-declaration",
+    "d.cts": "typescript-declaration",
+    "tsx": "tsx",
+    "config.json": "json-config",
+    "config.jsonc": "json-config",
+    "config.js": "javascript-config",
+    "config.mjs": "javascript-config",
+    "config.cjs": "javascript-config",
+    "config.ts": "typescript-config",
+    "config.mts": "typescript-config",
+    "config.cts": "typescript-config",
+    "vue": "vue",
+    "rs": "rust",
+    "sh": "shell",
+    "bash": "shell",
+    "zsh": "shell",
+    "fish": "shell",
+    "bashrc": "shell",
+    "bash_profile": "shell",
+    "bash_aliases": "shell",
+    "vite.*": "vite"
   },
   "fileNames": {
-    "tsconfig.json": "config",
+    "LICENSE": "txt",
+    ".env": "env",
+    ".env.*": "env",
+    "tsconfig.json": "json-config",
     "package.json": "npm",
     "package-lock.json": "npm",
     "pnpm-lock.yaml": "npm",
     "yarn.lock": "npm",
     ".eslintrc.*": "eslint",
     "eslint.*": "eslint",
-    ".env": "env",
-    ".env.*": "env",
+    "eslint.config.*": "eslint",
     "dockerfile": "docker",
     ".dockerignore": "docker",
     "docker-compose.*": "docker",
@@ -136,9 +137,6 @@
     },
     "folderExpanded": {
       "iconPath": "./icons/folder-expanded.svg"
-    },
-    "config": {
-      "iconPath": "./icons/config.svg"
     },
     "audio": {
       "iconPath": "./icons/audio.svg"
@@ -155,41 +153,14 @@
     "font": {
       "iconPath": "./icons/font.svg"
     },
-    "javascript": {
-      "iconPath": "./icons/javascript.svg"
-    },
-    "javascript-test": {
-      "iconPath": "./icons/javascript-test.svg"
-    },
-    "javascript-config": {
-      "iconPath": "./icons/javascript-config.svg"
-    },
-    "typescript": {
-      "iconPath": "./icons/typescript.svg"
-    },
-    "typescript-definition": {
-      "iconPath": "./icons/typescript.svg"
-    },
-    "typescript-test": {
-      "iconPath": "./icons/typescript-test.svg"
-    },
-    "typescript-config": {
-      "iconPath": "./icons/typescript-config.svg"
-    },
-    "jsx": {
-      "iconPath": "./icons/jsx.svg"
-    },
-    "jsx-typescript": {
-      "iconPath": "./icons/tsx.svg"
-    },
-    "vue": {
-      "iconPath": "./icons/vue.svg"
-    },
     "html": {
       "iconPath": "./icons/html.svg"
     },
     "css": {
       "iconPath": "./icons/css.svg"
+    },
+    "scss": {
+      "iconPath": "./icons/scss.svg"
     },
     "json": {
       "iconPath": "./icons/json.svg"
@@ -206,17 +177,56 @@
     "yaml": {
       "iconPath": "./icons/yaml.svg"
     },
+    "env": {
+      "iconPath": "./icons/env.svg"
+    },
+    "binary": {
+      "iconPath": "./icons/binary.svg"
+    },
+    "zip": {
+      "iconPath": "./icons/zip.svg"
+    },
+    "git": {
+      "iconPath": "./icons/git.svg"
+    },
+    "javascript": {
+      "iconPath": "./icons/javascript.svg"
+    },
+    "javascript-test": {
+      "iconPath": "./icons/javascript-test.svg"
+    },
+    "jsx": {
+      "iconPath": "./icons/jsx.svg"
+    },
+    "typescript": {
+      "iconPath": "./icons/typescript.svg"
+    },
+    "typescript-test": {
+      "iconPath": "./icons/typescript-test.svg"
+    },
+    "typescript-declaration": {
+      "iconPath": "./icons/typescript-declaration.svg"
+    },
+    "tsx": {
+      "iconPath": "./icons/tsx.svg"
+    },
+    "config": {
+      "iconPath": "./icons/config.svg"
+    },
+    "json-config": {
+      "iconPath": "./icons/json-config.svg"
+    },
+    "javascript-config": {
+      "iconPath": "./icons/javascript-config.svg"
+    },
+    "typescript-config": {
+      "iconPath": "./icons/typescript-config.svg"
+    },
+    "vue": {
+      "iconPath": "./icons/vue.svg"
+    },
     "rust": {
       "iconPath": "./icons/rust.svg"
-    },
-    "php": {
-      "iconPath": "./icons/php.svg"
-    },
-    "python": {
-      "iconPath": "./icons/python.svg"
-    },
-    "zig": {
-      "iconPath": "./icons/zig.svg"
     },
     "shell": {
       "iconPath": "./icons/shell.svg"
@@ -229,18 +239,6 @@
     },
     "vite": {
       "iconPath": "./icons/vite.svg"
-    },
-    "env": {
-      "iconPath": "./icons/env.svg"
-    },
-    "binary": {
-      "iconPath": "./icons/binary.svg"
-    },
-    "zip": {
-      "iconPath": "./icons/zip.svg"
-    },
-    "git": {
-      "iconPath": "./icons/git.svg"
     },
     "docker": {
       "iconPath": "./icons/docker.svg"
