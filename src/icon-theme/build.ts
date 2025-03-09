@@ -22,12 +22,33 @@ function buildIconTheme() {
     fileNames: {} as any,
 
     iconDefinitions: {} as any,
+
+    fonts: [
+      {
+        id: 'kardia-icons',
+        src: [
+          { path: './icons/kardia-icons.woff2', format: 'woff2' }
+        ],
+        weight: 'normal',
+        style: 'normal',
+        size: '130%'
+      }
+    ],
   
     hidesExplorerArrows: true,
   } satisfies IconTheme<Definitions>
 
   for (const [definition, config] of Object.entries(iconDefinitions)) {
-    iconTheme.iconDefinitions[definition] = { iconPath: config.iconPath }
+    if('iconPath' in config) {
+      iconTheme.iconDefinitions[definition] = { iconPath: config.iconPath }
+    }
+
+    if('fontId' in config) {
+      iconTheme.iconDefinitions[definition] = { 
+        fontId: config.fontId, 
+        fontCharacter: config.fontCharacter 
+      }
+    }
 
     if('extensions' in config) {
       for(const extension of config.extensions) {

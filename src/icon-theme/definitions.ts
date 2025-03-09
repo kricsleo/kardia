@@ -5,10 +5,14 @@ export const iconDefinitions = {
     iconPath: './icons/file.svg'
   },
   folder: {
-    iconPath: './icons/folder.svg'
+    // iconPath: './icons/folder.svg'
+    fontId: 'kardia-icons',
+    fontCharacter: '\ue900'
   },
   folderExpanded: {
-    iconPath: './icons/folder-expanded.svg'
+    // iconPath: './icons/folder-expanded.svg'
+    fontId: 'kardia-icons',
+    fontCharacter: '\ue901'
   },
 
   audio: {
@@ -68,10 +72,6 @@ export const iconDefinitions = {
   env: {
     names: ['.env', '.env.*'],
     iconPath: './icons/env.svg'
-  },
-  binary: {
-    extensions: ['bin', 'dat', 'exe', 'wasm'],
-    iconPath: './icons/binary.svg'
   },
   zip: {
     extensions: ['zip', 'tar', 'gz', '7z', 'rar', 'tgz', 'iso'],
@@ -138,9 +138,9 @@ export const iconDefinitions = {
     extensions: ['rs'],
     iconPath: './icons/rust.svg'
   },
-  shell: {
+  script: {
     extensions: ['sh', 'bash', 'zsh', 'fish', 'bashrc', 'bash_profile', 'bash_aliases'],
-    iconPath: './icons/shell.svg'
+    iconPath: './icons/script.svg'
   },
 
   npm: {
