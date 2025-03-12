@@ -31,7 +31,7 @@ function buildIconTheme() {
         ],
         weight: 'normal',
         style: 'normal',
-        size: '130%'
+        size: '120%'
       }
     ],
   
