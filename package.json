@@ -45,5 +45,11 @@
 	},
 	"devDependencies": {
 		"@vscode/vsce": "^3.3.0"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"@vscode/vsce-sign",
+			"keytar"
+		]
 	}
 }
