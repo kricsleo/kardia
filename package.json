@@ -9,7 +9,7 @@
 	"type": "module",
 	"icon": "assets/icon.png",
 	"license": "MIT",
-	"packageManager": "pnpm@10.6.5",
+	"packageManager": "pnpm@10.7.0",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/kricsleo/kardia"
@@ -40,11 +40,9 @@
 		"pack": "vsce package",
 		"preview": "bun run build:icon-theme && bun run pack && code --uninstall-extension kricsleo.kardia && code --install-extension kardia-0.0.0.vsix"
 	},
-	"dependencies": {
-		"@types/node": "^22.13.10"
-	},
 	"devDependencies": {
-		"@vscode/vsce": "^3.3.0"
+		"@types/node": "^22.13.14",
+		"@vscode/vsce": "^3.3.1"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
