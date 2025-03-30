@@ -98,6 +98,7 @@
     "config.cts": "typescript-config",
     "vue": "vue",
     "rs": "rust",
+    "go": "go",
     "sh": "script",
     "bash": "script",
     "zsh": "script",
@@ -222,6 +223,9 @@
     },
     "rust": {
       "iconPath": "./icons/rust.svg"
+    },
+    "go": {
+      "iconPath": "./icons/go.svg"
     },
     "script": {
       "iconPath": "./icons/script.svg"
