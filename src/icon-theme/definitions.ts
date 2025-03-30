@@ -138,6 +138,10 @@ export const iconDefinitions = {
     extensions: ['rs'],
     iconPath: './icons/rust.svg'
   },
+  go: {
+    extensions: ['go'],
+    iconPath: './icons/go.svg'
+  },
   script: {
     extensions: ['sh', 'bash', 'zsh', 'fish', 'bashrc', 'bash_profile', 'bash_aliases'],
     iconPath: './icons/script.svg'
