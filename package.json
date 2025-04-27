@@ -1,7 +1,7 @@
 {
-	"name": "file-icons-kardia",
-	"displayName": "Kardia Icons",
-	"description": "Theme for VS Code",
+	"name": "kardia-file-icon",
+	"displayName": "Kardia File Icon",
+	"description": "Kardia File Icon Theme for VS Code",
 	"author": "Kricsleo",
 	"publisher": "kricsleo",
 	"version": "0.0.0",
@@ -23,22 +23,22 @@
 	"files": [
 		"assets",
 		"icons",
-		"kardia-icons-theme.json",
+		"kardia-file-icon.json",
 		"LICENSE"
 	],
 	"contributes": {
 		"iconThemes": [
 			{
-				"id": "kardia-icons",
-				"label": "Kardia",
-				"path": "./kardia-icons-theme.json"
+				"id": "kardia-file-icon",
+				"label": "Kardia File Icon",
+				"path": "./kardia-file-icon.json"
 			}
 		]
 	},
 	"scripts": {
-		"build:icon-theme": "bun run src/icon-theme/build.ts",
+		"build:file-icon": "bun run src/file-icon/build.ts",
 		"pack": "vsce package",
-		"preview": "bun run build:icon-theme && bun run pack && code --uninstall-extension kricsleo.kardia && code --install-extension kardia-0.0.0.vsix"
+		"preview": "bun run build:file-icon && bun run pack && code --uninstall-extension kricsleo.kardia-file-icon && code --install-extension kardia-file-icon-0.0.0.vsix"
 	},
 	"devDependencies": {
 		"@types/node": "^22.13.14",

@@ -114,11 +114,11 @@
       "iconPath": "./icons/file.svg"
     },
     "folder": {
-      "fontId": "kardia-icons",
+      "fontId": "kardia-file-icon",
       "fontCharacter": ""
     },
     "folderExpanded": {
-      "fontId": "kardia-icons",
+      "fontId": "kardia-file-icon",
       "fontCharacter": ""
     },
     "audio": {
@@ -214,10 +214,10 @@
   },
   "fonts": [
     {
-      "id": "kardia-icons",
+      "id": "kardia-file-icon",
       "src": [
         {
-          "path": "./icons/kardia-icons.woff2",
+          "path": "./icons/kardia-file-icon.woff2",
           "format": "woff2"
         }
       ],

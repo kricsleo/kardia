@@ -3,13 +3,13 @@ import { iconDefinitions } from './definitions';
 import type { Definitions } from './definitions';
 import type { IconTheme } from './types';
 
-const themeJson = './kardia-icons-theme.json'
+const fileIconJson = './kardia-file-icon.json'
 
 main()
 
 async function main() {
   const iconTheme = buildIconTheme()
-  await fs.writeFile(themeJson, JSON.stringify(iconTheme, null, 2), 'utf-8');
+  await fs.writeFile(fileIconJson, JSON.stringify(iconTheme, null, 2), 'utf-8');
 }
 
 function buildIconTheme() {
@@ -25,9 +25,9 @@ function buildIconTheme() {
 
     fonts: [
       {
-        id: 'kardia-icons',
+        id: 'kardia-file-icon',
         src: [
-          { path: './icons/kardia-icons.woff2', format: 'woff2' }
+          { path: './icons/kardia-file-icon.woff2', format: 'woff2' }
         ],
         weight: 'normal',
         style: 'normal',

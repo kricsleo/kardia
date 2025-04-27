@@ -6,12 +6,12 @@ export const iconDefinitions = {
   },
   folder: {
     // iconPath: './icons/folder.svg'
-    fontId: 'kardia-icons',
+    fontId: 'kardia-file-icon',
     fontCharacter: '\ue900'
   },
   folderExpanded: {
     // iconPath: './icons/folder-expanded.svg'
-    fontId: 'kardia-icons',
+    fontId: 'kardia-file-icon',
     fontCharacter: '\ue901'
   },
 

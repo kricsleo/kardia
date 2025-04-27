@@ -1,4 +1,4 @@
-<img src="./assets/kardia-icons-preview.png" width="100%" />
+<img src="./assets/file-icon-preview.png" width="100%" />
 
 <h1 align="center">Kardia File Icon Theme for VS Code.</h1>
 
