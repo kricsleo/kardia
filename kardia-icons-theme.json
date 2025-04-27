@@ -52,13 +52,6 @@
     "toml": "toml",
     "yaml": "yaml",
     "yml": "yaml",
-    "zip": "zip",
-    "tar": "zip",
-    "gz": "zip",
-    "7z": "zip",
-    "rar": "zip",
-    "tgz": "zip",
-    "iso": "zip",
     "gitignore": "git",
     "gitattributes": "git",
     "gitmodules": "git",
@@ -88,14 +81,6 @@
     "d.mts": "typescript-declaration",
     "d.cts": "typescript-declaration",
     "tsx": "tsx",
-    "config.json": "json-config",
-    "config.jsonc": "json-config",
-    "config.js": "javascript-config",
-    "config.mjs": "javascript-config",
-    "config.cjs": "javascript-config",
-    "config.ts": "typescript-config",
-    "config.mts": "typescript-config",
-    "config.cts": "typescript-config",
     "vue": "vue",
     "rs": "rust",
     "go": "go",
@@ -112,7 +97,6 @@
     "LICENSE": "txt",
     ".env": "env",
     ".env.*": "env",
-    "tsconfig.json": "json-config",
     "package.json": "npm",
     "package-lock.json": "npm",
     "pnpm-lock.yaml": "npm",
@@ -179,9 +163,6 @@
     "env": {
       "iconPath": "./icons/env.svg"
     },
-    "zip": {
-      "iconPath": "./icons/zip.svg"
-    },
     "git": {
       "iconPath": "./icons/git.svg"
     },
@@ -205,18 +186,6 @@
     },
     "tsx": {
       "iconPath": "./icons/tsx.svg"
-    },
-    "config": {
-      "iconPath": "./icons/config.svg"
-    },
-    "json-config": {
-      "iconPath": "./icons/json-config.svg"
-    },
-    "javascript-config": {
-      "iconPath": "./icons/javascript-config.svg"
-    },
-    "typescript-config": {
-      "iconPath": "./icons/typescript-config.svg"
     },
     "vue": {
       "iconPath": "./icons/vue.svg"

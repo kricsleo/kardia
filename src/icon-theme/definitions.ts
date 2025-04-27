@@ -73,10 +73,10 @@ export const iconDefinitions = {
     names: ['.env', '.env.*'],
     iconPath: './icons/env.svg'
   },
-  zip: {
-    extensions: ['zip', 'tar', 'gz', '7z', 'rar', 'tgz', 'iso'],
-    iconPath: './icons/zip.svg'
-  },
+  // zip: {
+  //   extensions: ['zip', 'tar', 'gz', '7z', 'rar', 'tgz', 'iso'],
+  //   iconPath: './icons/zip.svg'
+  // },
   git: {
     extensions: ['gitignore', 'gitattributes', 'gitmodules', 'gitkeep', 'gitconfig', 'gitignore_global'],
     iconPath: './icons/git.svg'
@@ -112,23 +112,23 @@ export const iconDefinitions = {
     iconPath: './icons/tsx.svg'
   },
 
-  config: {
-    names: ['tsconfig.json'],
-    iconPath: './icons/config.svg' 
-  },
-  'json-config': {
-    names: ['tsconfig.json'],
-    extensions: ['config.json', 'config.jsonc'],
-    iconPath: './icons/json-config.svg'
-  },
-  'javascript-config': {
-    extensions: ['config.js', 'config.mjs', 'config.cjs'],
-    iconPath: './icons/javascript-config.svg'
-  },
-  'typescript-config': {
-    extensions: ['config.ts', 'config.mts', 'config.cts'],
-    iconPath: './icons/typescript-config.svg'
-  },
+  // config: {
+  //   names: ['tsconfig.json'],
+  //   iconPath: './icons/config.svg' 
+  // },
+  // 'json-config': {
+  //   names: ['tsconfig.json'],
+  //   extensions: ['config.json', 'config.jsonc'],
+  //   iconPath: './icons/json-config.svg'
+  // },
+  // 'javascript-config': {
+  //   extensions: ['config.js', 'config.mjs', 'config.cjs'],
+  //   iconPath: './icons/javascript-config.svg'
+  // },
+  // 'typescript-config': {
+  //   extensions: ['config.ts', 'config.mts', 'config.cts'],
+  //   iconPath: './icons/typescript-config.svg'
+  // },
 
   vue: {
     extensions: ['vue'],
