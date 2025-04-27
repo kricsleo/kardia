@@ -3,7 +3,7 @@
 <h1 align="center">Kardia File Icon Theme for VS Code.</h1>
 
 <p align="center">
-<a href="https://marketplace.visualstudio.com/items?itemName=kricsleo.file-icon-kardia" target="_blank"><img src="https://img.shields.io/visual-studio-marketplace/v/kricsleo.file-icon-kardia.svg?color=18181B&label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=kricsleo.kardia-file-icon" target="_blank"><img src="https://img.shields.io/visual-studio-marketplace/v/kricsleo.kardia-file-icon.svg?color=18181B&label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
 </p>
 
 
