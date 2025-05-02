@@ -6,6 +6,9 @@
 <a href="https://marketplace.visualstudio.com/items?itemName=kricsleo.kardia-file-icon" target="_blank"><img src="https://img.shields.io/visual-studio-marketplace/v/kricsleo.kardia-file-icon.svg?color=18181B&label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
 </p>
 
+## TODO
+
+- [ ] Logo Design
 
 ## ❤️ Gratitude
 
