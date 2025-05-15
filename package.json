@@ -4,7 +4,7 @@
 	"description": "Kardia File Icon Theme for VS Code",
 	"author": "Kricsleo",
 	"publisher": "kricsleo",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"private": true,
 	"type": "module",
 	"icon": "assets/icon.png",
