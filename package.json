@@ -39,7 +39,7 @@
 		"build:file-icon": "bun run src/file-icon/build.ts",
 		"pack": "vsce package",
 		"preview": "bun run build:file-icon && bun run pack && code --uninstall-extension kricsleo.kardia-file-icon && code --install-extension kardia-file-icon-0.0.0.vsix",
-		"publish": "bumpp && bun run build:file-icon && bun run pack && vsce publish"
+		"release": "bumpp && bun run build:file-icon && bun run pack && vsce publish"
 	},
 	"devDependencies": {
 		"@types/node": "^22.13.14",
